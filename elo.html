@@ -95,7 +95,7 @@
 		
 		
 		var winPoints = '?', losePoints = '?';
-		if (spread >= 401)	{	winPoints = 0; losePoints = 15; 	}
+		if (spread >= 401)	{	winPoints = 0; losePoints = 16; 	}
 		else if (spread >= 351)	{	winPoints = 1; losePoints = -15; 	}
 		else if (spread >= 301)	{	winPoints = 2; losePoints = -14; 	}
 		else if (spread >= 251)	{	winPoints = 3; losePoints = -13; 	}
@@ -112,7 +112,7 @@
 		else if (spread >= -300)	{	winPoints = 13; losePoints = -3; 	}
 		else if (spread >= -350)	{	winPoints = 14; losePoints = -2; 	}
 		else if (spread >= -400)	{	winPoints = 15; losePoints = -1; 	}
-		else 	{	winPoints = 15; losePoints = -1; 	}
+		else 	{	winPoints = 16; losePoints = 0; 	}
 		
 		
 		$('#winpoints').html(winPoints);
